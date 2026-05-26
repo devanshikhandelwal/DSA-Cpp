@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main(){
+    // FACTORIAL OF A GIVEN NUMBER N
+    int n;
+    cout<<"enter number n : ";
+    cin>>n;
+    int product = 0;
+    for(int i = 1; i<=n; i++){
+       product *= product*i;     
+    }
+    cout<<product;
+    return 0;
+
+}
